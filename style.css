@@ -11,6 +11,11 @@ p {
 a {
 	color: #777777;
 	text-decoration: none;
+
+}
+
+a:hover {
+    color: red;
 }
 
 #header_bar{
@@ -104,6 +109,11 @@ input[type="submit"] {
 	border: 1px solid #dddddd;
 	color: #4aaaa5;
 	
+}
+
+.hover-outline:hover {
+  outline: 5px solid gray;
+  outline-offset: 10px;
 }
 
 hr {
